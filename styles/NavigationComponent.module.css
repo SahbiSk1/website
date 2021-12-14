@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  display: flex;
+  background: var(--color-white);
+  border: 2px solid var(--color-grey-dark);
+  height: 180px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 22%;
+}
+
+.comp {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.check {
+  position: absolute;
+  width: 30px;
+  top: -12%;
+}
+.img {
+  width: 30px;
+  margin-top: 8px;
+}
+.comp h3 {
+  font-size: 12px;
+}
+.comp p {
+  color: var(--color-grey-md);
+  font-size: 11px;
+  margin: 5px 0;
+}

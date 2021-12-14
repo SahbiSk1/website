@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-grey-md: rgba(133, 133, 132, 255);
+  --color-grey-light: rgba(242, 243, 243, 255);
+  --color-grey-dark: rgba(169, 169, 168, 255);
+  --color-black: rgba(34, 34, 34, 255);
+  --color-orange: rgba(242, 153, 74, 255);
+  --color-white: white;
+  --color-blue-light: rgba(44, 157, 219, 255);
+}

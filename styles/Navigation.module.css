@@ -1,0 +1,20 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(254, 254, 255, 255);
+  flex-flow: row-reverse;
+  height: 5vh;
+}
+.navContainer button {
+  border: none;
+  margin: 10px;
+  color: rgba(133, 133, 132, 255);
+  background: transparent;
+  margin: 15px 20px 15px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+.navContainer button:hover {
+  color: rgba(133, 133, 132, 255);
+}

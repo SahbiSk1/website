@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--color-black);
+  color: var(--color-white);
+  min-height: 250px;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logoContainer {
+  width: 120px;
+  height: 110px;
+}

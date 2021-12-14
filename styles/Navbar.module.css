@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-black);
+  align-items: center;
+  height: 11vh;
+  padding: 20px;
+}
+.logoContainer {
+  width: 60px;
+  height: 50px;
+  margin-right: 20px;
+}
+.list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.listItem a {
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.Ar {
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ar p {
+  color: var(--color-black);
+  background: var(--color-white);
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 500;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}

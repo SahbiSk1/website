@@ -1,0 +1,20 @@
+.container {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color-grey-light);
+}
+.logoContainer {
+  width: 250px;
+  height: 230px;
+  background: var(--color-black);
+  padding: 30px 35px;
+}
+.container h1 {
+  font-weight: 400;
+  margin-top: 40px;
+  font-size: 25px;
+}
